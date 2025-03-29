@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sunday Sleep Reminder",
+  "version": "1.0",
+  "description": "Closes your tab at 10 PM every Sunday and tells you to sleep.",
+  "permissions": ["tabs", "alarms"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_title": "Sunday Sleep Reminder"
+  }
+}
